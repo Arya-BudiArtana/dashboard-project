@@ -538,6 +538,24 @@ main .recent-order a {
     color: white;
 }
 
+@media screen and (max-width: 1500px){
+
+    .right {
+        margin-top: 1.4rem;
+        width: 95%;
+    }
+    main .insights > div {
+        padding: 0.8rem 0rem 1rem 0.8rem;; 
+    } 
+    main .insights h1 {
+        margin: 0.8rem 0 0.6rem;
+        font-size: 1.2rem;
+    }
+    main .insights small {
+        margin-top: 0;
+    }
+   
+}
 
 @media screen and (max-width: 1200px){
     .container {
