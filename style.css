@@ -591,6 +591,7 @@ main .recent-order a {
         position: absolute;
         transition: translateX(-50%);
         margin: 2rem 0 0 8.8rem;
+        padding-top: 5rem;
     }
 
     main .recent-order table {
