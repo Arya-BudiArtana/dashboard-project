@@ -22,7 +22,7 @@ Orders.forEach(order => {
     const tr = document.createElement('tr');
     const trContent = `
                         <tr>
-                            <td>${order.productName}</td>
+                            <td class="text-right">${order.productName}</td>
                             <td>${order.productNumber}</td>
                             <td>${order.paymentStatus}</td>
                             <td class="${order.shipping === 'Declined'? 'danger':

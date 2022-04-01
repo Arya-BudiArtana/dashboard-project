@@ -368,6 +368,10 @@ main .recent-order table {
     transition: all 300ms ease;
 }
 
+main .recent-order table .text-right {
+    text-align: left;
+}
+
 main .recent-order table:hover {
     box-shadow: none;
 }
